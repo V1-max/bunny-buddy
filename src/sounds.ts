@@ -1,0 +1,3 @@
+ export const SOUNDS = {
+    timerFinish: 'https://assets.mixkit.co/active_storage/sfx/2869/2869-preview.mp3', // A cute, soft bell sound
+  };
