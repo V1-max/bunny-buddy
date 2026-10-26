@@ -1,6 +1,5 @@
  import { useState, useEffect } from 'react';
   import { AnimatePresence, motion } from 'framer-motion';
-  import { VIBE_LIBRARY, type Vibe } from './vibes';
   import { useZenStore } from './store';
   import {
     Sparkles, Volume2, Play, Pause,
