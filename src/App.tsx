@@ -285,6 +285,15 @@
           )}
         </AnimatePresence>
 
+        <button
+          type="button"
+          onClick={() => window.alert('To view Bunny Buddy as a desktop site, open your mobile browser menu and choose “Desktop site” or “Request Desktop Website”.')}
+          className="fixed bottom-4 left-4 z-40 md:hidden rounded-full border border-pink-100 bg-white/85 px-3 py-2 text-[10px] font-medium text-[#B98291] shadow-sm backdrop-blur-sm transition-colors hover:bg-pink-50 active:scale-95"
+          aria-label="How to convert to desktop site"
+        >
+          ♡ convert to desktop site
+        </button>
+
         <a
           href="https://ko-fi.com/bunnybuddy"
           target="_blank"
