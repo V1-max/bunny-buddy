@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
 import { useZenStore } from './store';
 import {
-  Sparkles, Volume2, Play, Pause,
+  Sparkles, Play, Pause,
   RotateCcw, CheckCircle2, Circle, Plus,
   Heart, X, Leaf, MessageCircle, Send, Settings, User, Clock
 } from 'lucide-react';
