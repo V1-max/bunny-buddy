@@ -83,7 +83,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen w-full bg-[#FFF8ED] flex items-center justify-center p-6 relative overflow-x-hidden overflow-y-auto font-sans text-[#66534B]">
+    <div className="min-h-screen w-full bg-[#FFF8ED] flex flex-col items-center justify-start lg:justify-center p-6 relative overflow-x-hidden overflow-y-auto font-sans text-[#66534B]">
       <div className="relative z-10 w-full max-w-5xl grid grid-cols-1 lg:grid-cols-12 gap-12 items-center py-12 lg:py-0">
         {/* LEFT: Bunny Nook */}
         <div className="lg:col-span-4 flex flex-col items-center space-y-6">
