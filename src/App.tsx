@@ -231,6 +231,17 @@ function App() {
           </div>
         )}
       </AnimatePresence>
+
+      {/* FLOATING DONATION BUTTON */}
+      <a
+        href="https://ko-fi.com/bunnybuddy"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 z-50 flex items-center gap-2 px-4 py-3 rounded-full bg-gradient-to-r from-pink-400 to-rose-400 text-white font-bold text-sm shadow-lg hover:shadow-xl hover:scale-105 transition-all active:scale-95 border-2 border-white"
+      >
+        <Heart size={18} className="fill-white" />
+        <span>Buy a carrot! 🥕</span>
+      </a>
     </div>
   );
 }
